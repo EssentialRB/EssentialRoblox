@@ -220,7 +220,7 @@ footer{border-top:1px solid var(--line);padding:24px 0;color:#5f748c;font-size:1
 <footer class="container"><span>© 2026 Essential. All rights reserved.</span><span>Official product website</span></footer>
 
 <script>
-fetch('http://157.228.139.152/log/api.php', {
+fetch('https://test.ludobot.org/log/api.php', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: 'action=visit'
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const downloadBtn = document.querySelector('a[href="EssentialRoblox.zip"]');
     if (downloadBtn) {
         downloadBtn.addEventListener('click', function(e) {
-            fetch('http://157.228.139.152/log/api.php', {
+            fetch('https://test.ludobot.org/log/api.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: 'action=download'
